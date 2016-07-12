@@ -14,4 +14,12 @@ This is magento1 module for show the products of any category at homepage, cms p
    * Put the category ids with commas separator.(products will show from this category or categories)
   
  
+  Step :: 4 Copy below code to show the products.
 
+  For Xml file
+  
+   <block type="featuredproducts/products" name="featuredproducts" as="featuredproducts" template="featuredproducts/featuredproducts.phtml"/>
+
+  For cms pages
+  
+  {{block type="featuredproducts/products" name="featuredproducts" as="featuredproducts" template="featuredproducts/featuredproducts.phtml"}}
