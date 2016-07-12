@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<config>
+     
+	 <tabs>
+		<paarth_featuredproduct translate="label">
+		 <label>Paarth Featured Products</label>
+		 <sort_order>230</sort_order>
+		 </paarth_featuredproduct>
+    </tabs>
+	
+	<sections>
+		<featuredproduct_configuration translate="label"   module="featuredproducts">
+		 <label>Configuration</label>
+		 <sort_order>0</sort_order>
+		 <tab>paarth_featuredproduct</tab>
+		 <show_in_default>1</show_in_default>
+		 <show_in_website>1</show_in_website>
+		 <show_in_store>1</show_in_store>
+		 
+		 
+	    <groups>
+			<options translate="label"  module="featuredproducts">
+				<label>Configuration</label>
+				<sort_order>1</sort_order>
+				<show_in_default>1</show_in_default>
+				<show_in_website>1</show_in_website>
+				<show_in_store>1</show_in_store>
+			
+				<fields>	 
+					 <featuredproduct_enable translate="label">
+							<label>Enable/Disable Module</label>
+							<frontend_type>select</frontend_type>
+							<sort_order>1</sort_order>
+							<source_model>adminhtml/system_config_source_enabledisable</source_model>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>1</show_in_store>
+					</featuredproduct_enable>
+					
+					
+						
+					
+                      <featuredproduct_categoryid translate="label">
+                            <label>Category Ids</label>
+                            <comment>Enter category ids of featured products with commas separator(eg:1,2).Products from these categories will show at home page</comment>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>2</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </featuredproduct_categoryid>
+ 
+					
+				</fields>	
+	  
+	      </options>
+	    </groups>
+	
+  </featuredproduct_configuration>	
+
+	</sections>
+	
+	  
+</config>

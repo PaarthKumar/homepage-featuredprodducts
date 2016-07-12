@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<config>
+       
+	   <acl>
+			<resources>
+			<all>
+			<title>Allow Everything</title>
+			</all>
+			<admin>
+			  <children>
+			   
+                <system>
+				  <children>
+				   <config>
+				    <children>
+					<featuredproduct_configuration translate="label"  module="paarth_ordergrid">
+					       <title>Paarth Order Grid Configuration Setting</title>
+					</featuredproduct_configuration>
+                   </children>
+			  	  </config>
+				   </children>
+				 </system>
+                   				 
+				 
+				</children>
+				</admin>
+				</resources>
+					 
+					 
+	   
+        </acl>
+        
+</config>
